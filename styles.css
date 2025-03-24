@@ -1,0 +1,44 @@
+.body{
+    display:flex;
+    flex-direction: column;
+    font: roboto;
+}
+
+.section-1-content{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-bar{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar > li{
+    list-style: none;
+    display: flex;
+
+}
+.left{
+    color: white;
+    padding:32px;
+    width: 300px;
+}
+.left > h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.left > p{
+    font-size: 18px;;
+}
+.left > button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 5px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20%;
+    border-style: none;
+}
