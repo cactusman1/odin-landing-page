@@ -70,6 +70,14 @@
     gap: 100px;;
     margin-top: 20px;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container > p{
+    width: 200px;
+}
 .box{
     width: 150px;
     height: 150px;
