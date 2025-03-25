@@ -52,3 +52,27 @@
     align-items: center;
     align-self: center;
 }
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+.section-2 > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 100px;;
+    margin-top: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: #3882F6, solid;
+    border-radius: 10%;
+}
