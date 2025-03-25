@@ -42,3 +42,13 @@
     border-radius: 20%;
     border-style: none;
 }
+.right{
+    background-color: gray;
+    color: white;
+    height:150px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
